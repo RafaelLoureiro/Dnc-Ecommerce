@@ -1,0 +1,38 @@
+@use "../../sass/variables" as *;
+
+.home__card{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 4.5%;
+    gap: 2px;
+    height: 330px;
+    margin-top: 5px;
+ 
+
+    background: #FFFFFF;
+    border: 1px solid $border-background-card;
+    border-radius: 8px;
+
+    button{
+        margin-top: 20px;
+        border: none; 
+    }
+   button a{
+        background-color: $contrast-color;
+        display: inline-block;
+        color: $white;
+        height: 28px; 
+        width: 154px; 
+        padding-top: 3px;
+        border: none; 
+        border-radius: 6px;
+        font-size: 18px; /* Mesmo tamanho de fonte do botão */
+        text-decoration: none; /* Remover sublinhado padrão do link */
+    }
+    
+    button :link {
+        text-decoration: none;
+    
+    }
+}

@@ -1,0 +1,29 @@
+@use "../../sass/variables" as *;
+.searsh{
+    display: flex;
+    height: auto;
+.searsh_input-container{
+    display: flex;
+    position: relative;
+}
+.search_search-logo{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: grey;
+}
+
+input{
+ margin-left: 8px;
+ padding-left: 45px;
+ height: 35px;
+ width: 95vw;
+ border-radius: 10px;
+ border: 1px solid $border-input-color;
+}
+img{
+    margin-left: 8px;
+}
+}

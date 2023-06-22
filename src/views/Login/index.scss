@@ -1,0 +1,62 @@
+@use "../../sass/variables" as *;
+
+.login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    &__form{
+        text-align: center;
+        padding: 10rem;
+    }
+    h1{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 35px;
+    }
+    h2{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+    label {
+        text-align: left;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    &__input--warpper{
+        padding-top: 5rem;
+        max-width: 524px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+    input{
+        height: 52px;
+        border-radius: 15px;
+        border-color: $border-input-color;
+    }
+    button{
+        margin-top: 20px;
+        border: none; 
+    }
+   button a{
+        background-color: $contrast-color;
+        display: inline-block;
+        color: $white;
+        height: 38px; 
+        width: 524px; 
+        padding-top: 7px;
+        border: none; 
+        border-radius: 6px;
+        font-size: 18px; /* Mesmo tamanho de fonte do botão */
+        text-decoration: none; /* Remover sublinhado padrão do link */
+    }
+    
+    button :link {
+        text-decoration: none;
+    
+    }
+    
+}
